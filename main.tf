@@ -1,7 +1,7 @@
 provider "aws" {
   region = "us-east-1"
 }
-resource "aws_instance" "web123" {
+resource "aws_instance" "test" {
   ami           = "ami-085925f297f89fce1"
   instance_type = "t2.micro"
   tags = {
