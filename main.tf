@@ -20,7 +20,6 @@ resource "aws_instance" "web123" {
   }
 }
 
-output "instance_id" {
-  description = "ID of the EC2 instance"
-  value       = aws_instance.web123.id
+output "public_dns" {
+value = aws_instance.web123.public_dns
 }
