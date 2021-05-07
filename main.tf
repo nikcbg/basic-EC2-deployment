@@ -14,7 +14,7 @@ provider "aws" {
 }
 resource "aws_instance" "web123" {
   ami           = "ami-0747bdcabd34c712a"
-  instance_type = t2.micro
+  instance_type = "t2.micro"
   tags = {
     Name = "my-test-instance"
   }
