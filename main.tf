@@ -22,5 +22,5 @@ resource "aws_instance" "web123" {
 
 output "instance_id" {
   description = "ID of the EC2 instance"
-  value       = aws_instance.app_server.id
+  value       = aws_instance.web123.id
 }
