@@ -13,7 +13,7 @@ provider "aws" {
   region = "us-east-1"
 }
 resource "aws_instance" "web123" {
-  ami           = "ami-013f17f36f8b1fefb"
+  ami           = "ami-0747bdcabd34c712a"
   instance_type = t2.micro
   tags = {
     Name = "my-test-instance"
