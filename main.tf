@@ -20,5 +20,5 @@ resource "aws_instance" "test" {
 }
 
 output "public_dns" {
-  value = aws_instance.web123.public_dns
+  value = aws_instance.test.public_dns
 }
