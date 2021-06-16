@@ -1,6 +1,6 @@
 #variable "access_key" {}
 #variable "secret_key" {}
-#variable "token" {}
+variable "token" {}
 # variable "region" {}
 # variable "ami" {}
 # variable "instance_type" {}
