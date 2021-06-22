@@ -1,9 +1,6 @@
 variable "access_key" {}
 variable "secret_key" {}
 variable "token" {}
-# variable "region" {}
-# variable "ami" {}
-# variable "instance_type" {}
 
 provider "aws" {
   access_key = var.access_key
