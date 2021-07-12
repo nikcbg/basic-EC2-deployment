@@ -8,8 +8,8 @@ provider "aws" {
   token      = var.token
   region     = "us-east-1"
 }
-resource "aws_instance" "test1" {
-  ami           = "ami-09e67e426f25ce0d7"
+resource "aws_instance" "test" {
+  ami           = "ami-0747bdcabd34c712a"
   instance_type = "t2.micro"
   tags = {
     Name = "nik-test-instance"
@@ -17,5 +17,5 @@ resource "aws_instance" "test1" {
 }
 
 output "public_dns" {
-  value = aws_instance.test1.public_dns
+  value = aws_instance.test.public_dns
 }
